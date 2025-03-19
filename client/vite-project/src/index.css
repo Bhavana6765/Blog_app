@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --deep-blue: #1E3A8A;
+    --sky-blue: #60A5FA;
+    --light-blue: #DBEAFE;
+    --off-white: #F9FAFB;
+    --soft-grey: #E5E7EB;
+    --rich-red: #DC2626;
+}
+
+body {
+    background-color: var(--off-white);
+    font-size: 16px;
+    color: #1F2937;
+}
+
+.header {
+    margin-bottom: 50px;
+    background-image: linear-gradient(to bottom, #e0f2fe, #f0f9ff);
+}
+
+.header-text-quote {
+    color: var(--deep-blue);
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+}
+
+.link {
+    color: var(--deep-blue);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.set-width {
+    min-width: 250px;
+    text-align: start;
+}
+
+.home-page-content {
+    padding: 20px 10px;
+}
+
+.home-page-content p {
+    text-align: justify;
+    font-size: 1.1rem;
+    padding: 15px 0px;
+}
+
+.google-profile {
+    background-image: linear-gradient(to right, var(--sky-blue), var(--deep-blue));
+    margin: 0px 30px;
+    padding: 20px;
+    color: white;
+    border-radius: 30px;
+}
+
+.role {
+    max-width: 700px;
+}
+
+.role-radio {
+    background-color: var(--light-blue);
+    font-size: 1.1rem;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.author-profile ul a.active {
+    background-image: linear-gradient(to bottom, var(--sky-blue), var(--deep-blue));
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.user-button {
+    text-align: left;
+}
+
+.user-button .role {
+    color: var(--off-white);
+    background-color: #f59e0b;
+    font-weight: 500;
+    padding: 2px 6px;
+    font-size: 0.75rem;
+    border-radius: 6px;
+}
+
+.user-button .user-name {
+    color: var(--deep-blue);
+    font-size: 1rem;
+}
+
+.signout-btn {
+    border: 1px solid var(--rich-red);
+    color: var(--rich-red);
+    background-color: transparent;
+    height: 30px;
+    padding: 4px 8px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.custom-btn {
+    background: linear-gradient(to bottom, var(--sky-blue), var(--deep-blue));
+    border-radius: 6px;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(to bottom, #3b82f6, #1d4ed8);
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.article-content {
+    text-indent: 50px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+    border-radius: 8px;
+}
+
+.article-content::first-letter {
+    font-size: 180%;
+    font-weight: bold;
+    color: var(--rich-red);
+    font-family: "Playfair Display", serif;
+}
+
+.add-article-btn {
+    background-color: #10b981;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 6px 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.author-block {
+    background-color: var(--sky-blue);
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.comments p {
+    font-family: "Poppins", sans-serif;
+}
+
+.comments .user-name {
+    font-size: 1.1rem;
+    color: #6b7280;
+}
+
+.comments .comment {
+    margin-left: 30px;
+    font-size: 0.95rem;
+    color: #374151;
+}
+
+.bg-footer {
+    background-color: #1f2937;
+    padding: 40px 0 20px;
+    color: white;
+}
+
+.footer-heading {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--sky-blue);
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.footer-link a {
+    color: #d1d5db;
+    font-size: 0.9rem;
+    line-height: 32px;
+}
+
+.footer-link a:hover {
+    color: #10b981;
+}
+
+.contact-info {
+    color: #d1d5db;
+    font-size: 0.9rem;
+}
+
+.footer-social-icon {
+    font-size: 14px;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    background-color: #6b7280;
+    color: white;
+    margin-right: 8px;
+}
+
+.footer-alt {
+    color: #9ca3af;
+    font-size: 0.8rem;
+}
